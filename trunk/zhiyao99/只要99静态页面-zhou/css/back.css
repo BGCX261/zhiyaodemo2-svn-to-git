@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #e7e7e7;
+}
+
+#header{
+	width: auto; 
+	height: 50px;
+	background:#97BE5B;
+	overflow: hidden;
+	margin-bottom:10px;
+}
+
+#header h1{
+	width:142px;
+	height:64px;
+	float: left;
+	line-height:300px;
+	margin-left:50px;
+	background:url("../images/logo.gif") no-repeat #97BE5B;
+}
+#wrap{
+	width:100%;
+	margin-left:50px;
+}
+#control{
+	float:left;
+	width:180px;
+}
+#wrap .show{
+	width:180px;
+	height:30px;
+	line-height: 30px;
+	font-size:14px;
+	letter-spacing: 8px;
+	border-bottom: 1px solid #dadada;
+	border-top: 1px solid #ffffff;
+	text-align:center;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+#context{
+	float:left;
+	margin-left:18px;
+}
+#check_first{
+	height:40px;
+}
+#check_first ul{
+	height: 45px;
+} 
+#morecheck{
+	width:700px;
+	height:30px;
+	font-size:14px;
+	background:#ccc;
+	padding:5px;
+}
+#morecheck form{
+	width:900px;
+	height:30px;
+}
+#morecheck input,#morecheck span{
+	padding-right:15px;
+}
+#context .check li{
+	float:left;
+	width:90px;
+	height:33px;
+	line-height:33px;
+	font-weight:bold;
+	font-size:14px;
+	border-bottom: 1px solid #dadada;
+	border-top: 1px solid #ffffff;
+	text-align:center;
+	background-color: #f2f2f2;
+	margin-right:5px;
+	margin-bottom:8px;
+}
+.clear {
+	clear: both;
+}
+#context .header{
+	width:700px;
+	height:32px;
+	background:#999;
+	padding:0 5px;
+}
+#context .header li{
+	float:left;
+	height:32px;
+	line-height: 32px;
+	text-align:center;
+	font-size:14px;
+}
+
